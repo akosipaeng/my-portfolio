@@ -9,10 +9,10 @@ export default function AboutMe() {
           <p className="section--title">About</p>
           <h1 className="skills-section--heading">About Me</h1>
           <p className="hero--section-description">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias rerum sequi eius rem at nihil officiis placeat, incidunt quaerat ad adipisci nemo consequatur reiciendis aut molestiae atque quisquam ipsum et?
+          Greetings! I'm Rafael, a dedicated career shifter on a thrilling journey into the world of junior development. With a background in data research, data entry, and data analysis. I've embraced my passion for coding and completed training in HTML, CSS, JavaScript, and React. 
           </p>
           <p className="hero--section-description">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo repellat, accusamus perspiciatis iusto animi deserunt doloremque? Optio repellat fuga minus! Asperiores porro incidunt, expedita quas quam quis eligendi vel veniam.wew
+          Eager to contribute my skills, adaptability, and determination to excel in this new chapter. Let's create innovative solutions together!
           </p>
         </div>
       </div>

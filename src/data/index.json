@@ -4,25 +4,19 @@
       "id": "1",
       "src": "./img/product-chain-1.png",
       "title": "Front-End",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique"
+      "description": "A dedicated career shifter aiming to excel in front-end development. Leveraging my prior skills, I'm committed to learning the latest technologies and design principles to create impactful digital interfaces."
     },
     {
       "id": "2",
       "src": "./img/tag-1.png",
       "title": "Back-End",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique"
+      "description": "Motivated career shifter. Eager to leverage my past experience while acquiring new technical skills to build efficient and scalable server-side solutions, contributing effectively to the development of robust web applications."
     },
     {
-      "id": "3",
-      "src": "./img/feather-pen-2.png",
-      "title": "UI & UX Design",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique"
-    },
-    {
-      "id": "4",
+      "id": "2",
       "src": "./img/feather-pen-1.png",
-      "title": "Webflow Development",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique"
+      "title": "Full-Stack",
+      "description": "Passionate career shifter venturing into React.js development, fueled by a desire to merge creativity with coding. Eager to harness my adaptable skills in a new direction."
     }
   ], 
   
@@ -30,23 +24,23 @@
     {
       "id": "1",
       "src": "./img/placeholder-image.png",
-      "title": "Ahuse",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
-      "link": "View In Github"
+      "title": "Static Portfolio Website",
+      "description": "Proficient in HTML, CSS, and JavaScript, I develop visually engaging and responsive web pages that deliver information effectively and provide an excellent user experience.",
+      "link": "https://akosipaeng.github.io/webportfolio/#home"
     },
     {
       "id": "2",
       "src": "./img/placeholder-image-1.png",
-      "title": "App Dashboard",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
-      "link": "View In Github"
+      "title": "Simple E-commerce website",
+      "description": "I am commitment in learning, I'm excited to apply my evolving skills in web development to craft intuitive interfaces and functional e-commerce solutions that captivate customers and drive business growth.",
+      "link": "https://akosipaeng.github.io/e-commerce-website-project/"
     },
     {
       "id": "3",
       "src": "./img/placeholder-image-2.png",
-      "title": "Easy Rentn",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
-      "link": "View In Github"
+      "title": "Simple E-commerce website with auth",
+      "description": "A straightforward e-commerce website with authentication functionality and a server.",
+      "link": "https://capstone-3-vasquez-av2o7rf28-akosipaeng.vercel.app/"
     }
   ], 
 

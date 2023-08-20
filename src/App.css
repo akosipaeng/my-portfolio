@@ -208,7 +208,7 @@ h2 {
   align-items: flex-start;
   gap: 21.333px;
 }
-.hero--section--content--box > button {
+.hero--section--content--box > a {
   margin-top: 21.333px;
 }
 .hero--section--title {

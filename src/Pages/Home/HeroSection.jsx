@@ -12,15 +12,15 @@ export default function HeroSection() {
               Developer
           </h1>
           <p className="hero--section-description">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
             <br />
-             Voluptas impedit perspiciatis in repudiandae ratione.
+          Passionate career shifter transitioning into a full-stack developer role, leveraging strong problem-solving skills honed through previous experience.  
+            <br />
           </p>
         </div>
-        <button className="btn btn-primary">Get In Touch</button>
+        <a href="https://www.linkedin.com/in/mrvasquezrafael/" target="_blank" className="btn btn-primary" >Get In Touch</a>
       </div>
       <div className="hero--section--img">
-        <img src="./img/hero_img.png" alt="Hero Section" />
+        <img src="./img/hero2_img.png" alt="Hero Section" />
       </div>
     </section>
   );

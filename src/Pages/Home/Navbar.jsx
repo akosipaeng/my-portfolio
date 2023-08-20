@@ -29,7 +29,7 @@ function Navbar() {
   return ( 
     <nav className={`navbar ${navActive? "active" : ""}`}>
       <div>
-        <img src="./img/logo.svg" alt="Logoipsum" />
+        <img src="./img/logo2.png" alt="Logoipsum" />
       </div>
       <a href="" className={`nav_hamburger ${navActive ? "active" : ""}`} onClick={toggleNav}>
         <span className="nav__hamburger__line"></span>
@@ -80,7 +80,7 @@ function Navbar() {
               About Me
             </Link>
           </li>
-          <li>
+          {/* <li>
             <Link
               onClick={closeMenu}
               activeClass="navbar--active-content"
@@ -93,7 +93,7 @@ function Navbar() {
             >
               Testimonials
             </Link>
-          </li>
+          </li> */}
         </ul>
       </div>
       <Link 
@@ -103,7 +103,7 @@ function Navbar() {
          smooth={true}
          offset={-70}
          duration={500}
-         to="Contact"
+         to="heroSection"
          className="btn btn-outline-primary"
       >
       Contact Me</Link>
