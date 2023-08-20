@@ -5,10 +5,11 @@ export default function MyPortfolio() {
     <section className="portfolio--section" id="MyPortfolio">
       <div className="portfolio--container-box">
         <div className="portfolio--container">
-          <p className="sub--title">Recent Projects</p>
+          <p className="sub--title">Volunteer Projects</p>
           <h2 className="section--heading">My Portfolio</h2>
         </div>
         <div>
+          <a href="https://github.com/akosipaeng" target="_blank">
           <button className="btn btn-github">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -26,6 +27,7 @@ export default function MyPortfolio() {
             </svg>
             Visit My GitHub
           </button>
+          </a>
         </div>
       </div>
       <div className="portfolio--section--container">
@@ -36,11 +38,11 @@ export default function MyPortfolio() {
             </div>
               <div className="potfolio--section--card--content">
                 <div>
-                <h3 className="potfolio--section--title">{item.title}</h3>
+                <h3 className="potfolio--section--title">{item.title}</h3> <br />
                 <p className="text-md">{item.description}</p>
                 </div>
                 <p className="text-sm portfolio--link">
-                  {item.link}
+                  <a href={item.link} target="_blank">{item.link}</a>
                 <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="16"
