@@ -360,14 +360,15 @@ h2 {
   flex-direction: column;
   align-items: flex-start;
   gap: 32px;
-  flex: 1 0 0;
+  flex: 2 2 2;
+  width: 50%;
   background: #fff;
   box-shadow: 0 0 32px 0 rgba(0, 0, 0, 0.15);
   cursor: pointer;
   border-top-left-radius: 12px;
   border-top-right-radius: 12px;
 }
-.portfolio--section--card--content {
+.potfolio--section--card--content {
   display: flex;
   padding: 32px;
   flex-direction: column;
