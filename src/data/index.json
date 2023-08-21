@@ -17,6 +17,12 @@
       "src": "./img/feather-pen-1.png",
       "title": "Full-Stack",
       "description": "Emerging junior full stack developer with a passion for creating end-to-end web solutions. Proficient in both front-end technologies, as well as back-end technologies such as server-side scripting and database management, dedicated to delivering comprehensive and user-focused digital experiences."
+    },
+    {
+      "id": "3",
+      "src": "./img/feather-pen-2.png",
+      "title": "Web-Research",
+      "description": "Skilled in web research techniques, assimilating relevant information to support informed decision-making and problem-solving. Utilizes research skills to stay updated on emerging trends and technologies, contributing to the continuous improvement of web development practices."
     }
   ], 
   
