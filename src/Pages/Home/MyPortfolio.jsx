@@ -20,11 +20,11 @@ export default function MyPortfolio() {
         {data?.portfolio?.map((item,index) => (
           <div key={index} className="portfolio--section--card">
             <div className="portfolio--section--img">
-              <img src={item.src} alt="Placeholder" />
+              {/* <img src={item.src} alt="Placeholder" /> */}
             </div>
-              <div className="potfolio--section--card--content">
+              <div className="portfolio--section--card--content">
                 <div>
-                <h3 className="potfolio--section--title">{item.title}</h3> <br />
+                <h3 className="portfolio--section--title">{item.title}</h3> <br />
                 <p className="text-md">{item.description}</p>
                 </div>
                 <p className="text-sm portfolio--link">

@@ -122,10 +122,10 @@ h2 {
 /* Body 3 */
 .text-sm {
   color: var(--black);
-  font-size: 14px;
+  font-size: 10px;
   font-style: normal;
   font-weight: 400;
-  line-height: 21px;
+  line-height: 10px;
 }
 
 /* Section Titles */
@@ -223,7 +223,7 @@ h2 {
 }
 .hero--section-description {
   color: var(--darkblue);
-  font-size: 24px;
+  font-size: 20px;
   font-weight: 400;
   line-height: 36px;
 }
@@ -260,7 +260,7 @@ h2 {
 }
 .skills--section--card {
   display: flex;
-  padding: 32px;
+  padding: 20px;
   flex-direction: column;
   align-items: flex-start;
   gap: 32px;
@@ -368,9 +368,9 @@ h2 {
   border-top-left-radius: 12px;
   border-top-right-radius: 12px;
 }
-.potfolio--section--card--content {
+.portfolio--section--card--content {
   display: flex;
-  padding: 32px;
+  padding: 15px;
   flex-direction: column;
   align-items: flex-start;
   gap: 32px;
