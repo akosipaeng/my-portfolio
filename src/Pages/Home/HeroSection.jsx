@@ -3,7 +3,7 @@ export default function HeroSection() {
     <section id="heroSection" className="hero--section">
       <div className="hero--section--content--box">
         <div className="hero--section-content">
-          <p className="section--title"> Hey, Im Rafael</p>
+          {/* <p className="section--title"> Hey, Im Rafael</p> */}
           <h1 className="hero--section--title">
             <span className="hero--section-title--color">
               Full Stack
@@ -13,7 +13,7 @@ export default function HeroSection() {
           </h1>
           <p className="hero--section-description">
             <br />
-          Passionate career shifter transitioning into a full-stack developer role, leveraging strong problem-solving skills honed through previous experience.  
+          A passionate career shifter transitioning into a full-stack developer role, leveraging strong problem-solving skills honed through previous experience.  
             <br />
           </p>
         </div>
