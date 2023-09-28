@@ -10,30 +10,33 @@ export default function MyPortfolio() {
         </div>
         <div>
           <a href="https://github.com/akosipaeng" target="_blank">
-          <button className="btn btn-github">
-            Visit My GitHub
-          </button>
+            <button className="btn btn-github">Visit My GitHub</button>
           </a>
         </div>
       </div>
+
       <div className="portfolio--section--container">
-        {data?.portfolio?.map((item,index) => (
+        {data?.portfolio?.map((item, index) => (
           <div key={index} className="portfolio--section--card">
             <div className="portfolio--section--img">
               {/* <img src={item.src} alt="Placeholder" /> */}
             </div>
-              <div className="portfolio--section--card--content">
-                <div>
-                <h3 className="portfolio--section--title">{item.title}</h3> <br />
-                <p className="text-md">{item.description}</p>
-                </div>
-                <p className="text-sm portfolio--link">
-                  <a href={item.link} target="_blank">{item.link}</a>
-                </p>
+            <div className="portfolio--section--card--content">
+              <div>
+                <h3 className="portfolio--section--title">{item.title}</h3>{" "}
+                <br />
+                {/* <p className="text-md">{item.description}</p> */}
+                <iframe src={item.link} height={200} width={300}></iframe>
               </div>
+              <p className="text-sm portfolio--link">
+                <a href={item.link} target="_blank">
+                  {item.link}
+                </a>
+              </p>
+            </div>
           </div>
         ))}
       </div>
     </section>
-  )
+  );
 }
